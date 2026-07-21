@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "device": "cuda:0",
+  "input_shape": [
+    2,
+    3,
+    6,
+    64,
+    64
+  ],
+  "output_shape": [
+    2,
+    1,
+    64,
+    64
+  ],
+  "checks": [
+    {
+      "name": "SNN step 1 中间尺寸",
+      "passed": true,
+      "details": "{'input': (2, 6, 64, 64), 'conv1_bn': (2, 16, 64, 64), 'lif1_spikes': (2, 16, 64, 64), 'conv2_bn': (2, 16, 64, 64), 'lif2_spikes': (2, 16, 64, 64), 'conv3_bn': (2, 16, 64, 64), 'accumulator': (2, 16, 64, 64)}"
+    },
+    {
+      "name": "SNN step 2 中间尺寸",
+      "passed": true,
+      "details": "{'input': (2, 6, 64, 64), 'conv1_bn': (2, 16, 64, 64), 'lif1_spikes': (2, 16, 64, 64), 'conv2_bn': (2, 16, 64, 64), 'lif2_spikes': (2, 16, 64, 64), 'conv3_bn': (2, 16, 64, 64), 'accumulator': (2, 16, 64, 64)}"
+    },
+    {
+      "name": "SNN step 3 中间尺寸",
+      "passed": true,
+      "details": "{'input': (2, 6, 64, 64), 'conv1_bn': (2, 16, 64, 64), 'lif1_spikes': (2, 16, 64, 64), 'conv2_bn': (2, 16, 64, 64), 'lif2_spikes': (2, 16, 64, 64), 'conv3_bn': (2, 16, 64, 64), 'accumulator': (2, 16, 64, 64)}"
+    },
+    {
+      "name": "三步累加器非零",
+      "passed": true,
+      "details": "{\"mean\": 5.180481821298599e-09, \"std\": 1.75264310836792, \"min\": -7.502952575683594, \"max\": 9.042036056518555}"
+    },
+    {
+      "name": "三步与最后一步累加结果不同",
+      "passed": true,
+      "details": "mean_abs_diff=1.16751"
+    },
+    {
+      "name": "reset清空膜电位和累加器",
+      "passed": true,
+      "details": "{\"lif1_membrane\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"lif1_spikes\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"lif2_membrane\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"lif2_spikes\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"accumulator\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"firing_rates\": {\"lif1\": 0.0, \"lif2\": 0.0}, \"snn_step_count\": 0, \"ann_backend_call_count\": 0}"
+    },
+    {
+      "name": "输出shape",
+      "passed": true,
+      "details": "(2, 1, 64, 64)"
+    },
+    {
+      "name": "Loss正常",
+      "passed": true,
+      "details": "loss=0.84109807"
+    },
+    {
+      "name": "一个Block执行3个SNN step和1次ANN",
+      "passed": true,
+      "details": "snn_steps=3, ann_calls=1"
+    },
+    {
+      "name": "conv1梯度非零有限",
+      "passed": true,
+      "details": "grad_norm=0.099311946"
+    },
+    {
+      "name": "conv2梯度非零有限",
+      "passed": true,
+      "details": "grad_norm=0.17784507"
+    },
+    {
+      "name": "conv3梯度非零有限",
+      "passed": true,
+      "details": "grad_norm=0.19666474"
+    },
+    {
+      "name": "aspp梯度非零有限",
+      "passed": true,
+      "details": "grad_norm=0.27356298"
+    },
+    {
+      "name": "ttc_head梯度非零有限",
+      "passed": true,
+      "details": "grad_norm=0.2837306"
+    },
+    {
+      "name": "optimizer.step更新参数",
+      "passed": true,
+      "details": "changed_parameter_count=57"
+    },
+    {
+      "name": "Checkpoint包含完整SNN/ANN参数",
+      "passed": true,
+      "details": "model_state_keys=104"
+    },
+    {
+      "name": "输出/膜电位/累加器/梯度无NaN或Inf",
+      "passed": true,
+      "details": "states_finite=True, gradients_finite=True"
+    },
+    {
+      "name": "Validation按Block reset",
+      "passed": true,
+      "details": "snn_steps=3, ann_calls=1"
+    }
+  ],
+  "firing_rates": {
+    "lif1": 0.20537312825520834,
+    "lif2": 0.20592498779296875
+  },
+  "accumulator": {
+    "initialized": true,
+    "mean": 5.180481821298599e-09,
+    "std": 1.75264310836792,
+    "min": -7.502952575683594,
+    "max": 9.042036056518555,
+    "finite": true
+  },
+  "prediction": {
+    "mean": 0.09828297793865204,
+    "std": 0.3271654546260834,
+    "min": -1.2874444723129272,
+    "max": 1.696792483329773
+  },
+  "gradient_norms": {
+    "conv1": 0.09931194554216755,
+    "conv2": 0.17784507154805887,
+    "conv3": 0.1966647448351543,
+    "aspp": 0.27356297887869296,
+    "ttc_head": 0.28373059857230853,
+    "snn_encoder": 0.28330101679907077,
+    "ann_backend": 0.42614052559423266
+  },
+  "changed_parameter_count": 57
+}
