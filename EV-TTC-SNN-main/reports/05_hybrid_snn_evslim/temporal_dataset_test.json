@@ -1,0 +1,459 @@
+{
+  "passed": true,
+  "train_file": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/train.h5",
+  "val_file": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/val.h5",
+  "configuration": {
+    "window_length": 3,
+    "window_stride": 3,
+    "batch_size": 4,
+    "delta_t_us": 7000,
+    "delta_t_tolerance_us": 500,
+    "pin_memory": true
+  },
+  "real_dataset_summary": {
+    "train": {
+      "h5_path": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/train.h5",
+      "sample_count": 27543,
+      "sample_exp_shape": [
+        6,
+        360,
+        360
+      ],
+      "sample_ttc_shape": [
+        360,
+        360
+      ],
+      "window_length": 3,
+      "window_stride": 3,
+      "window_count": 9173,
+      "contiguous_run_count": 20,
+      "contiguous_run_length_min": 14,
+      "contiguous_run_length_max": 4400,
+      "break_count": 19,
+      "stride3_window_count": 9173,
+      "stride1_window_count": 27503
+    },
+    "val": {
+      "h5_path": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/val.h5",
+      "sample_count": 5165,
+      "sample_exp_shape": [
+        6,
+        360,
+        360
+      ],
+      "sample_ttc_shape": [
+        360,
+        360
+      ],
+      "window_length": 3,
+      "window_stride": 3,
+      "window_count": 1721,
+      "contiguous_run_count": 4,
+      "contiguous_run_length_min": 58,
+      "contiguous_run_length_max": 3858,
+      "break_count": 3,
+      "stride3_window_count": 1721,
+      "stride1_window_count": 5157
+    }
+  },
+  "checks": [
+    {
+      "name": "stride=3窗口起点",
+      "passed": true,
+      "details": "[0, 4, 9]"
+    },
+    {
+      "name": "stride=1窗口起点",
+      "passed": true,
+      "details": "[0, 1, 4, 5, 6, 9, 10, 11]"
+    },
+    {
+      "name": "合成单样本shape",
+      "passed": true,
+      "details": "exp=(3, 6, 8, 8), ttc=(1, 8, 8), mask=(1, 8, 8)"
+    },
+    {
+      "name": "合成窗口严格连续",
+      "passed": true,
+      "details": "source=[10, 11, 12], time=[70000.0, 77000.0, 84000.0]"
+    },
+    {
+      "name": "合成标签取最后一步",
+      "passed": true,
+      "details": "window [4,5,6] 对应 H5 第6行标签"
+    },
+    {
+      "name": "Block增强参数一致",
+      "passed": true,
+      "details": "T步输入、最后一步TTC与mask均执行同一次90度旋转"
+    },
+    {
+      "name": "合成batch shape",
+      "passed": true,
+      "details": "exp=(4, 3, 6, 8, 8), ttc=(4, 1, 8, 8)"
+    },
+    {
+      "name": "train随机1000窗口严格连续",
+      "passed": true,
+      "details": "windows=27503, breaks=19"
+    },
+    {
+      "name": "train窗口不跨断点",
+      "passed": true,
+      "details": "break_rows=[328, 913, 4984, 6111, 8397, 9725, 9739, 11324, 13580, 14110, 14538, 17381, 18181, 22581, 22868, 23055, 25212, 26669, 26684]"
+    },
+    {
+      "name": "train标签对应窗口最后一步",
+      "passed": true,
+      "details": "end_row=13769"
+    },
+    {
+      "name": "train真实单样本shape",
+      "passed": true,
+      "details": "exp=(3, 6, 360, 360), ttc=(1, 360, 360), mask=(1, 360, 360)"
+    },
+    {
+      "name": "val随机1000窗口严格连续",
+      "passed": true,
+      "details": "windows=5157, breaks=3"
+    },
+    {
+      "name": "val窗口不跨断点",
+      "passed": true,
+      "details": "break_rows=[291, 349, 1306]"
+    },
+    {
+      "name": "val标签对应窗口最后一步",
+      "passed": true,
+      "details": "end_row=2584"
+    },
+    {
+      "name": "val真实单样本shape",
+      "passed": true,
+      "details": "exp=(3, 6, 360, 360), ttc=(1, 360, 360), mask=(1, 360, 360)"
+    },
+    {
+      "name": "train workers=0烟雾测试",
+      "passed": true,
+      "details": "batches=20, finite=True, continuous=True, memory_stable=True"
+    },
+    {
+      "name": "train workers=2烟雾测试",
+      "passed": true,
+      "details": "batches=20, finite=True, continuous=True, memory_stable=True"
+    },
+    {
+      "name": "val workers=2烟雾测试",
+      "passed": true,
+      "details": "batches=10, finite=True, continuous=True, memory_stable=True"
+    },
+    {
+      "name": "val workers=4烟雾测试",
+      "passed": true,
+      "details": "batches=4, finite=True, continuous=True, memory_stable=True"
+    }
+  ],
+  "smoke_tests": [
+    {
+      "split": "train",
+      "num_workers": 0,
+      "requested_batches": 20,
+      "completed_batches": 20,
+      "dataset": {
+        "h5_path": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/train.h5",
+        "sample_count": 27543,
+        "sample_exp_shape": [
+          6,
+          360,
+          360
+        ],
+        "sample_ttc_shape": [
+          360,
+          360
+        ],
+        "window_length": 3,
+        "window_stride": 3,
+        "window_count": 9173,
+        "contiguous_run_count": 20,
+        "contiguous_run_length_min": 14,
+        "contiguous_run_length_max": 4400,
+        "break_count": 19
+      },
+      "first_batch_shapes": {
+        "exp_filts": [
+          4,
+          3,
+          6,
+          360,
+          360
+        ],
+        "ttc": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "mask": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "source_indices": [
+          4,
+          3
+        ],
+        "exp_times": [
+          4,
+          3
+        ]
+      },
+      "total_seconds": 1.6673885179989156,
+      "average_batch_read_seconds": 0.07552126560040051,
+      "median_batch_read_seconds": 0.07302865349993226,
+      "max_batch_read_seconds": 0.09781283500342397,
+      "finite": true,
+      "strictly_continuous": true,
+      "mask_valid_pixels_min": 39525,
+      "mask_valid_pixels_max": 73891,
+      "rss_mib_min": 767.734375,
+      "rss_mib_max": 869.53515625,
+      "stable_rss_growth_mib": -7.916015625,
+      "memory_stable": true
+    },
+    {
+      "split": "train",
+      "num_workers": 2,
+      "requested_batches": 20,
+      "completed_batches": 20,
+      "dataset": {
+        "h5_path": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/train.h5",
+        "sample_count": 27543,
+        "sample_exp_shape": [
+          6,
+          360,
+          360
+        ],
+        "sample_ttc_shape": [
+          360,
+          360
+        ],
+        "window_length": 3,
+        "window_stride": 3,
+        "window_count": 9173,
+        "contiguous_run_count": 20,
+        "contiguous_run_length_min": 14,
+        "contiguous_run_length_max": 4400,
+        "break_count": 19
+      },
+      "first_batch_shapes": {
+        "exp_filts": [
+          4,
+          3,
+          6,
+          360,
+          360
+        ],
+        "ttc": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "mask": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "source_indices": [
+          4,
+          3
+        ],
+        "exp_times": [
+          4,
+          3
+        ]
+      },
+      "total_seconds": 0.9719500840001274,
+      "average_batch_read_seconds": 0.039642720450501656,
+      "median_batch_read_seconds": 0.03535280199866975,
+      "max_batch_read_seconds": 0.12296269399666926,
+      "finite": true,
+      "strictly_continuous": true,
+      "mask_valid_pixels_min": 40736,
+      "mask_valid_pixels_max": 91178,
+      "rss_mib_min": 1820.30859375,
+      "rss_mib_max": 1884.06640625,
+      "stable_rss_growth_mib": 13.897265625000045,
+      "memory_stable": true
+    },
+    {
+      "split": "val",
+      "num_workers": 2,
+      "requested_batches": 10,
+      "completed_batches": 10,
+      "dataset": {
+        "h5_path": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/val.h5",
+        "sample_count": 5165,
+        "sample_exp_shape": [
+          6,
+          360,
+          360
+        ],
+        "sample_ttc_shape": [
+          360,
+          360
+        ],
+        "window_length": 3,
+        "window_stride": 3,
+        "window_count": 1721,
+        "contiguous_run_count": 4,
+        "contiguous_run_length_min": 58,
+        "contiguous_run_length_max": 3858,
+        "break_count": 3
+      },
+      "first_batch_shapes": {
+        "exp_filts": [
+          4,
+          3,
+          6,
+          360,
+          360
+        ],
+        "ttc": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "mask": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "source_indices": [
+          4,
+          3
+        ],
+        "exp_times": [
+          4,
+          3
+        ]
+      },
+      "total_seconds": 0.48293378200469306,
+      "average_batch_read_seconds": 0.03860297390056076,
+      "median_batch_read_seconds": 0.022994503502559382,
+      "max_batch_read_seconds": 0.14423922100104392,
+      "finite": true,
+      "strictly_continuous": true,
+      "mask_valid_pixels_min": 41425,
+      "mask_valid_pixels_max": 50604,
+      "rss_mib_min": 1844.78515625,
+      "rss_mib_max": 1928.51171875,
+      "stable_rss_growth_mib": 0.06510416666674246,
+      "memory_stable": true
+    },
+    {
+      "split": "val",
+      "num_workers": 4,
+      "requested_batches": 4,
+      "completed_batches": 4,
+      "dataset": {
+        "h5_path": "/home/hello/research_project/event+SNN+TTC/EV-TTC-SNN-main/debug_sets/[13]official_car_single_sequence_evttc_reproduction/data/val.h5",
+        "sample_count": 5165,
+        "sample_exp_shape": [
+          6,
+          360,
+          360
+        ],
+        "sample_ttc_shape": [
+          360,
+          360
+        ],
+        "window_length": 3,
+        "window_stride": 3,
+        "window_count": 1721,
+        "contiguous_run_count": 4,
+        "contiguous_run_length_min": 58,
+        "contiguous_run_length_max": 3858,
+        "break_count": 3
+      },
+      "first_batch_shapes": {
+        "exp_filts": [
+          4,
+          3,
+          6,
+          360,
+          360
+        ],
+        "ttc": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "mask": [
+          4,
+          1,
+          360,
+          360
+        ],
+        "source_indices": [
+          4,
+          3
+        ],
+        "exp_times": [
+          4,
+          3
+        ]
+      },
+      "total_seconds": 0.22236627699749079,
+      "average_batch_read_seconds": 0.03869076874980237,
+      "median_batch_read_seconds": 0.002517334000003757,
+      "max_batch_read_seconds": 0.14949551899917424,
+      "finite": true,
+      "strictly_continuous": true,
+      "mask_valid_pixels_min": 41425,
+      "mask_valid_pixels_max": 47007,
+      "rss_mib_min": 2914.8046875,
+      "rss_mib_max": 3019.0703125,
+      "stable_rss_growth_mib": 15.73046875,
+      "memory_stable": true
+    }
+  ],
+  "workers_0_2_ok": true,
+  "workers_4_ok": true,
+  "no_window_crosses_break": true,
+  "last_label_aligned": true,
+  "actual_batch_shapes": {
+    "exp_filts": [
+      4,
+      3,
+      6,
+      360,
+      360
+    ],
+    "ttc": [
+      4,
+      1,
+      360,
+      360
+    ],
+    "mask": [
+      4,
+      1,
+      360,
+      360
+    ],
+    "source_indices": [
+      4,
+      3
+    ],
+    "exp_times": [
+      4,
+      3
+    ]
+  }
+}
