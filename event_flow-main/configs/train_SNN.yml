@@ -1,0 +1,54 @@
+experiment: Default # MLflow 实验名称；论文用 MLflow 记录不同 ANN/SNN 架构和训练指标
+
+data: # 训练数据相关设置；论文使用 UZH-FPV 事件序列做自监督训练
+    path: datasets/data/training/ # 训练 HDF5 数据所在目录；README 中对应 UZH-FPV training 数据
+    mode: events # 按固定事件数量切分输入；论文强调直接处理事件流而非帧
+    window: 1000 # 每次 forward 输入 1000 个事件；对应论文中的 input partition N=1k
+    window_loss: 10000 # 累积 10000 个事件后计算一次 loss；对应论文中的 training partition K=10
+
+model: # 网络结构相关设置；这里训练论文中的 LIF-FireNet SNN 光流模型
+    name: LIFFireNet # 模型名称；LIF-FireNet 是 FireNet 的脉冲神经网络版本，见论文 Table 1
+    encoding: cnt # 事件输入编码方式；cnt 表示正/负极性事件计数图，符合论文“最少时间编码”的输入设定
+    round_encoding: False # 仅 voxel 编码会用到；cnt 编码下不进行时间 bin 舍入
+    norm_input: False # 是否归一化非零输入事件计数；论文默认直接使用事件计数
+    num_bins: 2 # 输入通道/bin 数；cnt 模式下表示正极性计数和负极性计数两个通道
+    base_num_channels: 32 # FireNet 主干通道数；论文默认轻量网络每层使用 32 个通道
+    kernel_size: 3 # 卷积核大小；论文网络结构中卷积层主要使用 3x3 kernel
+    activations: [arctanspike, arctanspike] # 前馈层和 recurrent 层的脉冲激活；arctanspike 使用 arctan 替代梯度训练 SNN
+    mask_output: True # 只在有事件的像素输出/约束光流；论文中为避免无事件区域被无效监督影响而使用 mask
+
+spiking_neuron: # LIF 脉冲神经元参数；对应论文 Section 3.3 的 LIF 模型
+    leak: [-4.0, 0.1] # 膜电位泄漏参数初始化及扰动尺度；控制神经元状态随时间衰减
+    thresh: [0.8, 0.1] # 放电阈值初始化及扰动尺度；膜电位超过阈值时产生 spike
+    learn_leak: True # 是否学习 leak；论文讨论可学习神经元参数有助于 SNN 训练
+    learn_thresh: True # 是否学习 threshold；允许网络自动调节神经元兴奋性
+    hard_reset: True # spike 后硬重置膜电位；论文指出硬重置更适合较深 SNN，能减少替代梯度误差累积
+    
+loss: # 自监督光流损失设置；核心是事件运动补偿 contrast maximization loss
+    flow_regul_weight: 0.001 # 光流平滑正则权重 λ；对应论文 Lflow = Lcontrast + λ Lsmooth
+    clip_grad: 100.0 # 全局梯度裁剪阈值；论文训练中使用 100 防止 BPTT/SNN 梯度不稳定
+    overwrite_intermediate: False # 是否用最终光流覆盖中间光流估计；False 表示每个输入 partition 使用自身预测参与 loss
+
+optimizer: # 优化器设置；论文使用 Adam 训练 ANN/SNN
+    name: Adam # 优化器类型；论文实验统一使用 Adam
+    lr: 0.0002 # 学习率；论文 Section 4 使用 2e-4
+
+loader: # 数据加载和训练循环设置
+    n_epochs: 100 # 训练轮数；论文实验训练 100 epochs
+    batch_size: 8 # batch size；README 和论文均说明实验使用 8
+    resolution: [128, 128] # 输入裁剪分辨率 H x W；论文训练使用 128x128 随机裁剪序列
+    augment: ["Horizontal", "Vertical", "Polarity"] # 数据增强类型；对应论文的水平翻转、垂直翻转、极性翻转
+    augment_prob: [0.5, 0.5, 0.5] # 各增强的执行概率；三种增强默认均为 0.5
+    gpu: 0 # 使用的 GPU 编号；设为 0 表示使用第一张 CUDA GPU
+
+vis: # 训练过程可视化和调试设置
+    verbose: True # 是否在终端打印训练进度和 loss
+    enabled: False # 是否开启在线可视化；默认关闭以减少训练开销
+    px: 400 # 可视化窗口/图像尺寸参数；仅 enabled=True 时使用
+    store_grads: False # 是否保存梯度统计；论文分析梯度时有用，普通训练默认关闭
+
+hot_filter: # 热像素过滤设置；用于去除异常高频触发的事件像素
+    enabled: False # 训练默认不启用热像素过滤；评估配置中通常会开启
+    max_px: 100 # 最多过滤的热像素数量
+    min_obvs: 5 # 至少观察若干窗口后才开始判断热像素，避免过早误判
+    max_rate: 0.8 # 像素事件率超过该阈值时被视为热像素候选

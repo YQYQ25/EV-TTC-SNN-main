@@ -1,0 +1,57 @@
+# LIF-EV-FlowNet-TTC 阶段1-3基线配置。
+# 参数来源：MAVLab event_flow-main/configs/train_SNN.yml 与
+# EV-TTC-main/model/util.py、model/conf/models/evslim_ttc.yaml。
+
+model:
+  source: MAVLab_LIF_EV_FlowNet
+  input_channels: 2          # 正/负极性事件计数图
+  output_channels: 1         # signed inverse TTC = Tz / Z
+  output_activation: none    # signed inverse TTC 允许正负值，输出头保持线性
+  base_num_channels: 32      # MAVLab 默认主干宽度
+  num_encoders: 4            # RecEVFlowNet 下采样层数，总stride=16
+  num_residual_blocks: 2     # MAVLab RecEVFlowNet 残差块数量
+  skip_type: concat          # 复用 EV-FlowNet concat skip connection
+  kernel_size: 3             # MAVLab train_SNN.yml 使用3x3卷积
+  use_upsample_conv: true    # 复用 MAVLab 上采样卷积
+  recurrent_block_type: lif  # LIF recurrent block
+  spiking_feedforward_block_type: lif
+  activations: [arctanspike, arctanspike] # MAVLab surrogate gradient
+  neuron_parameters:
+    source: MAVLab_original
+    leak: [-4.0, 0.1]        # 膜电位泄漏初始化和扰动
+    thresh: [0.8, 0.1]       # 放电阈值初始化和扰动
+    learn_leak: true
+    learn_thresh: true
+    hard_reset: true
+  surrogate_gradient: MAVLab_original_arctanspike
+
+loss:
+  type: masked_charbonnier_per_sample
+  source: EV-TTC
+  target: signed_inverse_ttc
+  alpha: 0.45                # EV-TTC evslim_ttc.yaml 默认值
+  epsilon: 0.00001           # EV-TTC model/util.py 中的 1e-5
+  smoothness_weight: 0       # 第一阶段只做TTC数据项
+  normalize_pixels_per_sample: true
+  average_over_valid_sample_steps: true
+
+sequence:
+  steps: 10                  # MAVLab window_loss/window = 10000/1000
+  invalid_step_forward: true # 无效监督step仍保留前向传播以维护状态
+  invalid_step_loss: false
+
+state:
+  detach_every_steps: 10     # block末尾截断BPTT图
+  reset_every_block: false   # 连续物理时间不机械重置
+  reset_required_on:
+    - sequence_start
+    - timeout_or_time_gap
+    - file_switch
+    - explicit_jump
+    - s3_roi_switch
+    - train_val_test_switch
+
+optimizer:
+  name: Adam
+  lr: 0.0002                 # MAVLab train_SNN.yml
+  gradient_clip: 100.0       # MAVLab train_SNN.yml loss.clip_grad

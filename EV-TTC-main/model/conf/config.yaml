@@ -1,0 +1,38 @@
+# @package _global_
+defaults:
+  - models: evslim_ttc
+  - _self_  
+  - debug: null
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: stdout  
+  
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+ 
+# Reload or Restart Training
+ckpt_path: null       # Path to checkpoint for resuming training
+saved_model: null     # Path to a saved model for inference or fine-tuning
+
+
+# Data Settings
+log_dir: /tmp/        # Directory for storing logs
+data_dir: /tmp/       # Directory for writing data
+train_file: train.txt # Training data file
+val_file: val.txt     # Validation data file
+batch_size:  128      # Number of samples per batch
+
+# Trainer Settings
+max_epochs: 20        # Maximum number of training epochs
+val_epochs: 6         # Run validation every this many epochs
+save_interval: 10    # Save checkpoint every this many epoch
+log_interval: 40      # Log metrics every this many steps
+viz_interval: 10      # Visualization frequency (in steps)
+workers: 16           # Number of data loading workers
+num_sanity_val_steps: 0  # Number of validation steps to run before starting training
+precision: "16-mixed" # Training precision (16-bit mixed precision)
+
+# Optimization
+lr: 2e-3              # Learning rate
+pct_start: 0.1        # Percentage of training to increase learning rate

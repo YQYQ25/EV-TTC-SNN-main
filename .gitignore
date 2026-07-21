@@ -1,0 +1,65 @@
+# Python、编辑器和运行时缓存
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# 环境与依赖
+.venv/
+venv/
+env/
+EV-TTC-main/.venv/
+
+# 所有数据、权重和导出模型
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tflite
+*.npz
+*.npy
+
+# 运行输出、可视化和下载缓存
+logs/
+debug_sets/
+datasets/
+analysis/
+ttcef_multiseq/
+data_m3ed_min/
+EV-TTC-main/logs/
+EV-TTC-main/ttcef_merged_min/
+EV-TTC-main/ttcef_multiseq/
+event_flow-main/datasets/
+event_flow-main/mlruns/
+event_flow-main/.readme/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.csv
+*.tmp
+*.log
+
+# 工作区中不属于本仓库的项目和本地文件
+EV-flight-main/
+backup_manifest.md
+ttc_smoke.onnx
+0
+data_m3ed_min
+logs
+EV-TTC-main/ev_ttc/
+EV-TTC-main/ev_ttc_readme_zh/
+event_flow-main/.flake8
+event_flow-main/.gitignore
+event_flow-main/MAVLab_OF_SNN_self-supervised.pdf
+.DS_Store

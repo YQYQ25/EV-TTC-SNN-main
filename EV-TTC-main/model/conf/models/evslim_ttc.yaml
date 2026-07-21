@@ -1,0 +1,46 @@
+# @package _global_
+
+# Experiment identifier
+exp: evslim
+
+# Encoder network architecture parameters
+enc_k_size: [3,3,3]     # Kernel sizes for each encoder convolutional layer
+enc_channels: [16,16, 16]  # Output channels for each encoder layer
+
+# ASPP (Atrous Spatial Pyramid Pooling) parameters
+aspp_channels: [32, 16]  # Output channels for each ASPP module
+rate: [12,24,36]         # Dilation rates for atrous convolutions in ASPP
+
+# Decoder network architecture parameters
+dec_k_size: [3,3,3]      # Kernel sizes for each decoder convolutional layer
+dec_channels: [8,8,1]    # Output channels for each decoder layer (final is 1)
+
+# Common model parameters
+norm: true               # Whether to use batch normalization in layers
+in_channels: 6           # Number of input channels to the first convolution
+input: 6                 # Deprecated alias kept for old checkpoints/scripts
+ds: TTCEF                 # Dataset identifier
+task: ttc                # Task identifier (TTC = Time-To-Collision)
+act: ReLU                # Activation function to use throughout the network
+
+# Data augmentation parameters
+flip_prob: 0.3           # Probability of horizontal/vertical flip during training
+alpha: 0.45              # Alpha parameter for robust loss
+
+
+res: [360, 360]
+
+# Task-specific model configuration
+task_model:
+  _target_: ttc.TTCModel  # Python path to the TTC model class
+  cfg: null               # Configuration will be passed at runtime
+
+# Base model configuration
+model_type:
+  _target_: evslim.EVSlim  # Python path to the EVSlim model class
+  cfg: None                # Configuration will be passed at runtime
+
+# Data module configuration
+dm:
+  _target_: data.ttc_dm.TTCEF_DM  # Python path to the TTC data module
+  cfg: None                       # Configuration will be passed at runtime
