@@ -20,11 +20,13 @@ if str(MODEL_ROOT) not in sys.path:
     sys.path.insert(0, str(MODEL_ROOT))
 
 from hybrid_block_training import (  # noqa: E402
+    load_hybrid_checkpoint,
     save_hybrid_checkpoint,
     train_hybrid_block,
     validate_hybrid_block,
 )
 from hybrid_snn_evslim import HybridSNNEVSlim  # noqa: E402
+from util import charbonnier_loss  # noqa: E402
 
 
 DEFAULT_OUT_DIR = PROJECT_ROOT / "EV-TTC-SNN-main/reports/05_hybrid_snn_evslim"
@@ -132,6 +134,52 @@ def run_tests(out_dir: str | Path = DEFAULT_OUT_DIR) -> dict[str, Any]:
     )
     check("reset清空膜电位和累加器", reset_ok, json.dumps(reset_stats, ensure_ascii=False))
 
+    # 完整序列反传：每个时间步都应透过递归 LIF 状态和 sum accumulator 获得梯度。
+    gradient_model = HybridSNNEVSlim().to(device).train()
+    gradient_input = torch.randn(
+        batch, steps, channels, height, width, device=device, requires_grad=True
+    )
+    gradient_model.reset_states()
+    gradient_prediction = gradient_model.forward_sequence(gradient_input)
+    gradient_loss = charbonnier_loss(target - gradient_prediction, alpha=0.45, mask=mask)
+    gradient_loss.backward()
+    time_step_gradients: list[dict[str, float]] = []
+    assert gradient_input.grad is not None
+    for step in range(steps):
+        current_gradient = gradient_input.grad[:, step].detach()
+        row = {
+            "gradient_sum": float(current_gradient.abs().sum().cpu()),
+            "gradient_mean": float(current_gradient.abs().mean().cpu()),
+            "gradient_max": float(current_gradient.abs().max().cpu()),
+            "finite": bool(torch.isfinite(current_gradient).all().cpu()),
+        }
+        time_step_gradients.append(row)
+        check(
+            f"时间步t={step}输入梯度非零有限",
+            row["finite"] and row["gradient_sum"] > 0.0,
+            json.dumps(row, ensure_ascii=False),
+        )
+
+    # 输入消融：每一时刻被置零都必须改变最终预测，防止只使用最后一个 step。
+    ablation_model = HybridSNNEVSlim().to(device).eval()
+    ablation_input = torch.randn(batch, steps, channels, height, width, device=device)
+    with torch.no_grad():
+        ablation_model.reset_states()
+        reference_prediction = ablation_model.forward_sequence(ablation_input)
+        ablation_l1_differences: dict[str, float] = {}
+        for step in range(steps):
+            altered = ablation_input.clone()
+            altered[:, step] = 0.0
+            ablation_model.reset_states()
+            altered_prediction = ablation_model.forward_sequence(altered)
+            difference = float((reference_prediction - altered_prediction).abs().sum().cpu())
+            ablation_l1_differences[f"zero_t{step}"] = difference
+            check(
+                f"置零时间步t={step}会改变输出",
+                difference > 0.0,
+                f"L1_difference={difference:.8f}",
+            )
+
     # 调用独立 Block 训练模块，验证一次监督、梯度和优化器更新。
     before = _parameter_snapshot(model)
     train_result = train_hybrid_block(model, optimizer, x_seq, target, mask, use_amp=False)
@@ -182,6 +230,63 @@ def run_tests(out_dir: str | Path = DEFAULT_OUT_DIR) -> dict[str, Any]:
     )
     check("Checkpoint包含完整SNN/ANN参数", checkpoint_ok, f"model_state_keys={len(state_keys)}")
 
+    # CUDA 环境才执行真实 AMP；CPU 环境将明确标记跳过，不能把 FP32 当 AMP 成功。
+    amp_result: dict[str, Any]
+    if device.type == "cuda":
+        amp_model = HybridSNNEVSlim().to(device)
+        amp_optimizer = torch.optim.AdamW(amp_model.parameters(), lr=1e-3)
+        amp_before = _parameter_snapshot(amp_model)
+        amp_train = train_hybrid_block(
+            amp_model, amp_optimizer, x_seq, target, mask, use_amp=True
+        )
+        amp_gradients_finite = all(
+            parameter.grad is None or bool(torch.isfinite(parameter.grad).all().cpu())
+            for parameter in amp_model.parameters()
+        )
+        assert amp_train.scaler is not None
+        amp_scale = float(amp_train.scaler.get_scale())
+        amp_changed = _changed_parameters(amp_before, amp_model)
+        with tempfile.TemporaryDirectory(prefix="hybrid_snn_evslim_amp_") as temp_dir:
+            amp_checkpoint_path = Path(temp_dir) / "amp_checkpoint.pt"
+            save_hybrid_checkpoint(
+                amp_checkpoint_path,
+                amp_model,
+                amp_optimizer,
+                epoch=1,
+                scaler=amp_train.scaler,
+            )
+            restored_model = HybridSNNEVSlim().to(device)
+            restored_optimizer = torch.optim.AdamW(restored_model.parameters(), lr=1e-3)
+            restored_scaler = torch.amp.GradScaler("cuda", enabled=True)
+            restored_checkpoint = load_hybrid_checkpoint(
+                amp_checkpoint_path,
+                restored_model,
+                restored_optimizer,
+                scaler=restored_scaler,
+                map_location=device,
+            )
+        scaler_restored = restored_checkpoint["scaler"] == restored_scaler.state_dict()
+        amp_ok = (
+            math.isfinite(amp_train.loss)
+            and len(amp_changed) > 0
+            and amp_gradients_finite
+            and math.isfinite(amp_scale)
+            and amp_scale > 0.0
+            and scaler_restored
+        )
+        amp_result = {
+            "status": "passed" if amp_ok else "failed",
+            "loss": amp_train.loss,
+            "parameter_changed_count": len(amp_changed),
+            "gradients_finite": amp_gradients_finite,
+            "scaler_scale": amp_scale,
+            "checkpoint_scaler_restored": scaler_restored,
+        }
+        check("CUDA AMP训练与scaler恢复", amp_ok, json.dumps(amp_result, ensure_ascii=False))
+    else:
+        amp_result = {"status": "skipped", "reason": "当前环境没有CUDA，未伪造AMP测试结果。"}
+        print(f"[SKIP] CUDA AMP训练与scaler恢复: {amp_result['reason']}", flush=True)
+
     states_finite = all(
         bool(item["finite"])
         for key, item in state_stats.items()
@@ -213,6 +318,9 @@ def run_tests(out_dir: str | Path = DEFAULT_OUT_DIR) -> dict[str, Any]:
         "accumulator": state_stats["accumulator"],
         "prediction": _stats(train_result.prediction),
         "gradient_norms": grad_norms,
+        "time_step_input_gradients": time_step_gradients,
+        "time_step_ablation_l1_differences": ablation_l1_differences,
+        "amp": amp_result,
         "changed_parameter_count": len(changed),
     }
     print("\n关键统计：", flush=True)
@@ -233,6 +341,9 @@ def run_tests(out_dir: str | Path = DEFAULT_OUT_DIR) -> dict[str, Any]:
 - accumulator：`{state_stats['accumulator']}`
 - prediction：`{summary['prediction']}`
 - 梯度范数：`{grad_norms}`
+- 时间步输入梯度：`{time_step_gradients}`
+- 时间步置零输出 L1 差异：`{ablation_l1_differences}`
+- AMP：`{amp_result}`
 - 更新参数数量：`{len(changed)}`
 
 详细检查见同目录 `hybrid_snn_evslim_unit_test.json`。

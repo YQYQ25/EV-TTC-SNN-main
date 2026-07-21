@@ -46,6 +46,36 @@
       "details": "{\"lif1_membrane\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"lif1_spikes\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"lif2_membrane\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"lif2_spikes\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"accumulator\": {\"initialized\": false, \"mean\": 0.0, \"std\": 0.0, \"min\": 0.0, \"max\": 0.0, \"finite\": true}, \"firing_rates\": {\"lif1\": 0.0, \"lif2\": 0.0}, \"snn_step_count\": 0, \"ann_backend_call_count\": 0}"
     },
     {
+      "name": "时间步t=0输入梯度非零有限",
+      "passed": true,
+      "details": "{\"gradient_sum\": 0.8078593015670776, \"gradient_mean\": 1.6435940779047087e-05, \"gradient_max\": 0.00010504025703994557, \"finite\": true}"
+    },
+    {
+      "name": "时间步t=1输入梯度非零有限",
+      "passed": true,
+      "details": "{\"gradient_sum\": 0.8149858117103577, \"gradient_mean\": 1.658092878642492e-05, \"gradient_max\": 0.00010045324597740546, \"finite\": true}"
+    },
+    {
+      "name": "时间步t=2输入梯度非零有限",
+      "passed": true,
+      "details": "{\"gradient_sum\": 0.8011199235916138, \"gradient_mean\": 1.6298827176797204e-05, \"gradient_max\": 0.00010184646816924214, \"finite\": true}"
+    },
+    {
+      "name": "置零时间步t=0会改变输出",
+      "passed": true,
+      "details": "L1_difference=0.13685247"
+    },
+    {
+      "name": "置零时间步t=1会改变输出",
+      "passed": true,
+      "details": "L1_difference=0.17563146"
+    },
+    {
+      "name": "置零时间步t=2会改变输出",
+      "passed": true,
+      "details": "L1_difference=0.15405989"
+    },
+    {
       "name": "输出shape",
       "passed": true,
       "details": "(2, 1, 64, 64)"
@@ -53,7 +83,7 @@
     {
       "name": "Loss正常",
       "passed": true,
-      "details": "loss=0.84109807"
+      "details": "loss=0.84218621"
     },
     {
       "name": "一个Block执行3个SNN step和1次ANN",
@@ -63,27 +93,27 @@
     {
       "name": "conv1梯度非零有限",
       "passed": true,
-      "details": "grad_norm=0.099311946"
+      "details": "grad_norm=0.099328505"
     },
     {
       "name": "conv2梯度非零有限",
       "passed": true,
-      "details": "grad_norm=0.17784507"
+      "details": "grad_norm=0.1821231"
     },
     {
       "name": "conv3梯度非零有限",
       "passed": true,
-      "details": "grad_norm=0.19666474"
+      "details": "grad_norm=0.1958015"
     },
     {
       "name": "aspp梯度非零有限",
       "passed": true,
-      "details": "grad_norm=0.27356298"
+      "details": "grad_norm=0.27137256"
     },
     {
       "name": "ttc_head梯度非零有限",
       "passed": true,
-      "details": "grad_norm=0.2837306"
+      "details": "grad_norm=0.28419356"
     },
     {
       "name": "optimizer.step更新参数",
@@ -94,6 +124,11 @@
       "name": "Checkpoint包含完整SNN/ANN参数",
       "passed": true,
       "details": "model_state_keys=104"
+    },
+    {
+      "name": "CUDA AMP训练与scaler恢复",
+      "passed": true,
+      "details": "{\"status\": \"passed\", \"loss\": 0.8341712951660156, \"parameter_changed_count\": 57, \"gradients_finite\": true, \"scaler_scale\": 65536.0, \"checkpoint_scaler_restored\": true}"
     },
     {
       "name": "输出/膜电位/累加器/梯度无NaN或Inf",
@@ -119,19 +154,52 @@
     "finite": true
   },
   "prediction": {
-    "mean": 0.09828297793865204,
-    "std": 0.3271654546260834,
-    "min": -1.2874444723129272,
-    "max": 1.696792483329773
+    "mean": 0.09698770195245743,
+    "std": 0.33104458451271057,
+    "min": -1.632904291152954,
+    "max": 1.6201635599136353
   },
   "gradient_norms": {
-    "conv1": 0.09931194554216755,
-    "conv2": 0.17784507154805887,
-    "conv3": 0.1966647448351543,
-    "aspp": 0.27356297887869296,
-    "ttc_head": 0.28373059857230853,
-    "snn_encoder": 0.28330101679907077,
-    "ann_backend": 0.42614052559423266
+    "conv1": 0.09932850526764204,
+    "conv2": 0.18212309718136183,
+    "conv3": 0.19580150423368314,
+    "aspp": 0.2713725624365668,
+    "ttc_head": 0.28419356213943026,
+    "snn_encoder": 0.2853441701967643,
+    "ann_backend": 0.4217125616862688
+  },
+  "time_step_input_gradients": [
+    {
+      "gradient_sum": 0.8078593015670776,
+      "gradient_mean": 1.6435940779047087e-05,
+      "gradient_max": 0.00010504025703994557,
+      "finite": true
+    },
+    {
+      "gradient_sum": 0.8149858117103577,
+      "gradient_mean": 1.658092878642492e-05,
+      "gradient_max": 0.00010045324597740546,
+      "finite": true
+    },
+    {
+      "gradient_sum": 0.8011199235916138,
+      "gradient_mean": 1.6298827176797204e-05,
+      "gradient_max": 0.00010184646816924214,
+      "finite": true
+    }
+  ],
+  "time_step_ablation_l1_differences": {
+    "zero_t0": 0.1368524730205536,
+    "zero_t1": 0.17563146352767944,
+    "zero_t2": 0.15405988693237305
+  },
+  "amp": {
+    "status": "passed",
+    "loss": 0.8341712951660156,
+    "parameter_changed_count": 57,
+    "gradients_finite": true,
+    "scaler_scale": 65536.0,
+    "checkpoint_scaler_restored": true
   },
   "changed_parameter_count": 57
 }
