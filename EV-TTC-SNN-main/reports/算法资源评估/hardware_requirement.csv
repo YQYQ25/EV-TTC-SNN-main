@@ -1,0 +1,4 @@
+100hz_gmac_s,30hz_gmac_s,60hz_gmac_s,estimated_minimum_ram_mib,gmac_per_inference,main_risk,minimum_weight_storage_fp16_mib,model,recommended_hardware_gmac_s_2x,recommended_hardware_gmac_s_4x,resource_level
+532.18944,159.65683199999998,319.31366399999996,512.0,5.3218944,ASPP空洞卷积、360分辨率和内存带宽可能限制实际FPS,0.07948493957519531,官方 ANN EV-Slim,638.6273279999999,1277.2546559999998,Jetson Orin Nano级
+674.02368,202.207104,404.414208,512.0,6.7402368,LIF状态与ANN ASPP混合；NPU算子兼容性需要验证,0.07960700988769531,Hybrid SNN EV-Slim,808.828416,1617.656832,Jetson Orin Nano级
+4468.310016,1340.4930048,2680.9860096,512.0,44.68310016,PyTorch稠密仿真不具事件稀疏加速；递归LIF/自定义状态算子需部署适配,38.90674591064453,MAVLab LIF-EV-FlowNet-TTC,5361.9720192,10723.9440384,FPGA/类脑专用映射

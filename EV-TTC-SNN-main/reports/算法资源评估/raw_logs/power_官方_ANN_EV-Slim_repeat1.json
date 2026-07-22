@@ -1,0 +1,4818 @@
+[
+  {
+    "time_s": 19429.896655513,
+    "power_w": 14.18,
+    "gpu_util_pct": 20.0,
+    "memory_mib": 1131.0,
+    "temperature_c": 40.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19429.996801067,
+    "power_w": 14.18,
+    "gpu_util_pct": 20.0,
+    "memory_mib": 1131.0,
+    "temperature_c": 40.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.096959993,
+    "power_w": 14.18,
+    "gpu_util_pct": 20.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 40.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.197120999,
+    "power_w": 14.18,
+    "gpu_util_pct": 20.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 40.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.29729764,
+    "power_w": 43.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 46.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.397449872,
+    "power_w": 43.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 46.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.497535553,
+    "power_w": 43.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 46.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.597797686,
+    "power_w": 43.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 46.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.697871589,
+    "power_w": 43.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 46.0,
+    "sm_clock_mhz": 210.0
+  },
+  {
+    "time_s": 19430.797966291,
+    "power_w": 173.62,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19430.898136221,
+    "power_w": 173.62,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19430.998115189,
+    "power_w": 173.62,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.098217544,
+    "power_w": 173.62,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.198304814,
+    "power_w": 173.62,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.298406075,
+    "power_w": 299.75,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.398501762,
+    "power_w": 299.75,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.49859678,
+    "power_w": 299.75,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.59869878,
+    "power_w": 299.75,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1234.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.698751008,
+    "power_w": 299.75,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 50.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.798811963,
+    "power_w": 313.71,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.898940914,
+    "power_w": 313.71,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19431.99906457,
+    "power_w": 313.71,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.099136377,
+    "power_w": 313.71,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.199205608,
+    "power_w": 313.71,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.299289113,
+    "power_w": 314.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.399391441,
+    "power_w": 314.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1236.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.499485627,
+    "power_w": 314.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1236.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.599595179,
+    "power_w": 314.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1236.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.69968767,
+    "power_w": 314.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.799750303,
+    "power_w": 314.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.89986802,
+    "power_w": 314.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19432.999963875,
+    "power_w": 314.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.100083231,
+    "power_w": 314.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.200189395,
+    "power_w": 314.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 51.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.300252474,
+    "power_w": 315.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.400356564,
+    "power_w": 315.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.500511967,
+    "power_w": 315.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.600612915,
+    "power_w": 315.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.700686158,
+    "power_w": 315.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.800778729,
+    "power_w": 315.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19433.900897844,
+    "power_w": 315.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.001004091,
+    "power_w": 315.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.101072752,
+    "power_w": 315.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.201161317,
+    "power_w": 315.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.301281625,
+    "power_w": 316.05,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.401348406,
+    "power_w": 316.05,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.5014484,
+    "power_w": 316.05,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.601557057,
+    "power_w": 316.05,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.701617838,
+    "power_w": 316.05,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.801706294,
+    "power_w": 316.88,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19434.90178944,
+    "power_w": 316.88,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.001892647,
+    "power_w": 316.88,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.102019852,
+    "power_w": 316.88,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.202176741,
+    "power_w": 316.88,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 52.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.302364659,
+    "power_w": 317.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.402531087,
+    "power_w": 317.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.50260987,
+    "power_w": 317.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.602725791,
+    "power_w": 317.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.702877832,
+    "power_w": 317.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1232.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.802990911,
+    "power_w": 316.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1232.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19435.903093728,
+    "power_w": 316.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1232.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.003190293,
+    "power_w": 316.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.103281501,
+    "power_w": 316.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.203386097,
+    "power_w": 316.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.303465278,
+    "power_w": 316.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.403573419,
+    "power_w": 316.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.503649276,
+    "power_w": 316.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1235.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.603747505,
+    "power_w": 316.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.703878145,
+    "power_w": 316.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.803950442,
+    "power_w": 316.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19436.904072924,
+    "power_w": 316.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.004149404,
+    "power_w": 316.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.104230342,
+    "power_w": 316.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.204338006,
+    "power_w": 316.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 53.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.304411182,
+    "power_w": 317.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.404521231,
+    "power_w": 317.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.504658339,
+    "power_w": 317.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.604744624,
+    "power_w": 317.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.704849503,
+    "power_w": 317.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.804949042,
+    "power_w": 317.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19437.905070675,
+    "power_w": 317.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.005109862,
+    "power_w": 317.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.105241807,
+    "power_w": 317.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.205327235,
+    "power_w": 317.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.305458779,
+    "power_w": 318.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.405611179,
+    "power_w": 318.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.505683504,
+    "power_w": 318.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.605760209,
+    "power_w": 318.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.705834917,
+    "power_w": 318.61,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.805955947,
+    "power_w": 319.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19438.906045544,
+    "power_w": 319.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.006130894,
+    "power_w": 319.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.106276115,
+    "power_w": 319.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.206330696,
+    "power_w": 319.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.306443017,
+    "power_w": 319.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.406545152,
+    "power_w": 319.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.50671555,
+    "power_w": 319.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.606840278,
+    "power_w": 319.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.706936923,
+    "power_w": 319.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.8070244,
+    "power_w": 319.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19439.90708761,
+    "power_w": 319.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.007253433,
+    "power_w": 319.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.107351925,
+    "power_w": 319.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.207436218,
+    "power_w": 319.23,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 54.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.307520664,
+    "power_w": 318.83,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.407696847,
+    "power_w": 318.83,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.507773242,
+    "power_w": 318.83,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.607889353,
+    "power_w": 318.83,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.707991563,
+    "power_w": 318.83,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.80812625,
+    "power_w": 318.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19440.908236191,
+    "power_w": 318.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.008319894,
+    "power_w": 318.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.108444662,
+    "power_w": 318.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.208484956,
+    "power_w": 318.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.308579475,
+    "power_w": 319.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.408679719,
+    "power_w": 319.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.5087854,
+    "power_w": 319.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.608921489,
+    "power_w": 319.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.709020323,
+    "power_w": 319.07,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.809088747,
+    "power_w": 319.67,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19441.909168378,
+    "power_w": 319.67,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.009247347,
+    "power_w": 319.67,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.109329897,
+    "power_w": 319.67,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.209381465,
+    "power_w": 319.67,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 55.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.309488601,
+    "power_w": 319.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.409589116,
+    "power_w": 319.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.50976322,
+    "power_w": 319.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.609836274,
+    "power_w": 319.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.709926662,
+    "power_w": 319.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.810026941,
+    "power_w": 320.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19442.910106449,
+    "power_w": 320.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.010215422,
+    "power_w": 320.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.110310116,
+    "power_w": 320.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.21037042,
+    "power_w": 320.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.310446103,
+    "power_w": 319.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.410538702,
+    "power_w": 319.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.510628366,
+    "power_w": 319.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.610764655,
+    "power_w": 319.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.710827589,
+    "power_w": 319.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.810910719,
+    "power_w": 320.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19443.911072707,
+    "power_w": 320.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.011216773,
+    "power_w": 320.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.111269259,
+    "power_w": 320.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.21137612,
+    "power_w": 320.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.311510075,
+    "power_w": 320.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.411611185,
+    "power_w": 320.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.511727648,
+    "power_w": 320.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.61184116,
+    "power_w": 320.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.711962959,
+    "power_w": 320.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.812089407,
+    "power_w": 320.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19444.912166787,
+    "power_w": 320.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.012361784,
+    "power_w": 320.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.112486383,
+    "power_w": 320.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.212594327,
+    "power_w": 320.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.312708704,
+    "power_w": 320.81,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.412776173,
+    "power_w": 320.81,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.512872419,
+    "power_w": 320.81,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.612950728,
+    "power_w": 320.81,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.713077147,
+    "power_w": 320.81,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 56.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.813169444,
+    "power_w": 320.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19445.913251604,
+    "power_w": 320.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.013341267,
+    "power_w": 320.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.113455776,
+    "power_w": 320.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.213564138,
+    "power_w": 320.82,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.313755096,
+    "power_w": 321.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.413913967,
+    "power_w": 321.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.514138708,
+    "power_w": 321.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.614210704,
+    "power_w": 321.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.714272157,
+    "power_w": 321.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.814378388,
+    "power_w": 321.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19446.914512169,
+    "power_w": 321.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.014572332,
+    "power_w": 321.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.114659546,
+    "power_w": 321.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.214753134,
+    "power_w": 321.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.314851057,
+    "power_w": 321.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.4149927,
+    "power_w": 321.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.51517529,
+    "power_w": 321.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.615229086,
+    "power_w": 321.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.715302417,
+    "power_w": 321.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.815435438,
+    "power_w": 321.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19447.915537226,
+    "power_w": 321.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.015639967,
+    "power_w": 321.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.115702208,
+    "power_w": 321.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.215772353,
+    "power_w": 321.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.315876012,
+    "power_w": 321.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.415968229,
+    "power_w": 321.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.516063192,
+    "power_w": 321.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.616199432,
+    "power_w": 321.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.716245611,
+    "power_w": 321.35,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 57.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.816352724,
+    "power_w": 321.3,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19448.916462134,
+    "power_w": 321.3,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.016538036,
+    "power_w": 321.3,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.116619106,
+    "power_w": 321.3,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.216734306,
+    "power_w": 321.3,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.316814779,
+    "power_w": 321.41,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.416974466,
+    "power_w": 321.41,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.517033802,
+    "power_w": 321.41,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.617110428,
+    "power_w": 321.41,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.717199017,
+    "power_w": 321.41,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.81728829,
+    "power_w": 322.31,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19449.917407829,
+    "power_w": 322.31,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.017507699,
+    "power_w": 322.31,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.11759465,
+    "power_w": 322.31,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.217669697,
+    "power_w": 322.31,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.317756128,
+    "power_w": 322.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.417915891,
+    "power_w": 322.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.518025304,
+    "power_w": 322.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.618118785,
+    "power_w": 322.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.718215998,
+    "power_w": 322.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.818284726,
+    "power_w": 322.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19450.918377601,
+    "power_w": 322.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.01848365,
+    "power_w": 322.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.118562122,
+    "power_w": 322.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.218680176,
+    "power_w": 322.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.318765011,
+    "power_w": 323.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.418851665,
+    "power_w": 323.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.518980756,
+    "power_w": 323.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.619119241,
+    "power_w": 323.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.719188118,
+    "power_w": 323.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2745.0
+  },
+  {
+    "time_s": 19451.819319028,
+    "power_w": 322.55,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19451.919386382,
+    "power_w": 322.55,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.019486457,
+    "power_w": 322.55,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.119584533,
+    "power_w": 322.55,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.219644212,
+    "power_w": 322.55,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 58.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.319730533,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.419840315,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.519959481,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.620060636,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.720172984,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.820291794,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19452.920350772,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.020492367,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.120600122,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.220682906,
+    "power_w": 321.72,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.32083517,
+    "power_w": 322.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.421051084,
+    "power_w": 322.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.52116472,
+    "power_w": 322.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.621270692,
+    "power_w": 322.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.721366307,
+    "power_w": 322.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.821423501,
+    "power_w": 322.11,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19453.921504653,
+    "power_w": 322.11,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.021602381,
+    "power_w": 322.11,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.121715355,
+    "power_w": 322.11,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.221792586,
+    "power_w": 322.11,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.321885067,
+    "power_w": 322.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.421974289,
+    "power_w": 322.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.522107093,
+    "power_w": 322.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.622188769,
+    "power_w": 322.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.722288256,
+    "power_w": 322.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.822383571,
+    "power_w": 322.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19454.922518989,
+    "power_w": 322.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.022633154,
+    "power_w": 322.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.122772821,
+    "power_w": 322.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1229.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.22287234,
+    "power_w": 322.34,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.322945025,
+    "power_w": 322.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.423043948,
+    "power_w": 322.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.523135974,
+    "power_w": 322.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.623204584,
+    "power_w": 322.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.723320153,
+    "power_w": 322.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 59.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.823422498,
+    "power_w": 322.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19455.923523247,
+    "power_w": 322.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.023645864,
+    "power_w": 322.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.123750041,
+    "power_w": 322.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.223833302,
+    "power_w": 322.0,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.323919703,
+    "power_w": 322.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.424013078,
+    "power_w": 322.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.524114343,
+    "power_w": 322.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.624187968,
+    "power_w": 322.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.724280294,
+    "power_w": 322.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.824402444,
+    "power_w": 321.73,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19456.924478837,
+    "power_w": 321.73,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.024569859,
+    "power_w": 321.73,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.124671007,
+    "power_w": 321.73,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.224748592,
+    "power_w": 321.73,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.324852172,
+    "power_w": 321.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.425063249,
+    "power_w": 321.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.525149915,
+    "power_w": 321.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.625234554,
+    "power_w": 321.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.725308064,
+    "power_w": 321.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.825451914,
+    "power_w": 322.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19457.92552584,
+    "power_w": 322.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.02558556,
+    "power_w": 322.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.125719668,
+    "power_w": 322.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.225822529,
+    "power_w": 322.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.325958048,
+    "power_w": 323.52,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.426077766,
+    "power_w": 323.52,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.526187711,
+    "power_w": 323.52,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.626279885,
+    "power_w": 323.52,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.726373001,
+    "power_w": 323.52,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.826490901,
+    "power_w": 324.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19458.926592128,
+    "power_w": 324.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.026702665,
+    "power_w": 324.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.126776769,
+    "power_w": 324.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.226818422,
+    "power_w": 324.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 60.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.326893594,
+    "power_w": 323.89,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.427045834,
+    "power_w": 323.89,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.527104908,
+    "power_w": 323.89,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.627156116,
+    "power_w": 323.89,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.727233406,
+    "power_w": 323.89,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.827321788,
+    "power_w": 324.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19459.927421019,
+    "power_w": 324.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1228.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.027573109,
+    "power_w": 324.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1230.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.127648884,
+    "power_w": 324.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1231.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.227774149,
+    "power_w": 324.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1232.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.327862263,
+    "power_w": 323.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1232.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.428016643,
+    "power_w": 323.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.528158233,
+    "power_w": 323.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1233.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.628279603,
+    "power_w": 323.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1236.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.728403623,
+    "power_w": 323.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.828539892,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19460.928685727,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.028788411,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.128983792,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.229087074,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.329142719,
+    "power_w": 322.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.429264632,
+    "power_w": 322.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.529427269,
+    "power_w": 322.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1249.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.629511314,
+    "power_w": 322.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1249.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.72956921,
+    "power_w": 322.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1249.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.829690469,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1249.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19461.929813053,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1249.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.029953688,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.13001256,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.230279556,
+    "power_w": 323.21,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.330465225,
+    "power_w": 325.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.430605966,
+    "power_w": 325.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.530698944,
+    "power_w": 325.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.630842692,
+    "power_w": 325.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.731026016,
+    "power_w": 325.04,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.831193149,
+    "power_w": 325.93,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19462.931304035,
+    "power_w": 325.93,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1248.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.031335823,
+    "power_w": 325.93,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.131498977,
+    "power_w": 325.93,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.231596058,
+    "power_w": 325.93,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.3317299,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.431854336,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.531950234,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.63202573,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.732163439,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 61.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.832201383,
+    "power_w": 326.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19463.932325673,
+    "power_w": 326.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.032391159,
+    "power_w": 326.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.132563898,
+    "power_w": 326.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.232629033,
+    "power_w": 326.22,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.332718148,
+    "power_w": 326.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.432916426,
+    "power_w": 326.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.532978675,
+    "power_w": 326.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.633071155,
+    "power_w": 326.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.733169213,
+    "power_w": 326.09,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.833265011,
+    "power_w": 325.65,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19464.933341388,
+    "power_w": 325.65,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.033454659,
+    "power_w": 325.65,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.133537823,
+    "power_w": 325.65,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.233628546,
+    "power_w": 325.65,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.33382031,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.433940833,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.534050754,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.634124326,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1245.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.734229757,
+    "power_w": 326.01,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1245.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.834319454,
+    "power_w": 326.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1245.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19465.934413119,
+    "power_w": 326.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1244.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.034500145,
+    "power_w": 326.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.134606835,
+    "power_w": 326.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.234672465,
+    "power_w": 326.24,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.334804547,
+    "power_w": 326.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.434882286,
+    "power_w": 326.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.534988877,
+    "power_w": 326.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.635075243,
+    "power_w": 326.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.735145462,
+    "power_w": 326.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.835271107,
+    "power_w": 326.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19466.935325291,
+    "power_w": 326.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.035413801,
+    "power_w": 326.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.135515282,
+    "power_w": 326.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.235606472,
+    "power_w": 326.69,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.335712705,
+    "power_w": 326.85,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.435830372,
+    "power_w": 326.85,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.535933603,
+    "power_w": 326.85,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.636020688,
+    "power_w": 326.85,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.736101756,
+    "power_w": 326.85,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.836262788,
+    "power_w": 326.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19467.936388676,
+    "power_w": 326.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.036483302,
+    "power_w": 326.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.136641752,
+    "power_w": 326.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.236721075,
+    "power_w": 326.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.33696914,
+    "power_w": 327.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.437110249,
+    "power_w": 327.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.537192807,
+    "power_w": 327.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.637288935,
+    "power_w": 327.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.737348432,
+    "power_w": 327.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.837447221,
+    "power_w": 327.12,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19468.937582029,
+    "power_w": 327.12,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.037660646,
+    "power_w": 327.12,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.13772723,
+    "power_w": 327.12,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.237861945,
+    "power_w": 327.12,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.337945631,
+    "power_w": 327.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.438103244,
+    "power_w": 327.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.538215716,
+    "power_w": 327.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.638295982,
+    "power_w": 327.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.738455545,
+    "power_w": 327.06,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.838506292,
+    "power_w": 327.44,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19469.938650963,
+    "power_w": 327.44,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.038711645,
+    "power_w": 327.44,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.138800959,
+    "power_w": 327.44,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.238881632,
+    "power_w": 327.44,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.339008257,
+    "power_w": 327.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.439136164,
+    "power_w": 327.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.539304487,
+    "power_w": 327.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.639350054,
+    "power_w": 327.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.739433842,
+    "power_w": 327.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.839543803,
+    "power_w": 327.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19470.939618542,
+    "power_w": 327.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.039635684,
+    "power_w": 327.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.139735202,
+    "power_w": 327.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.239829961,
+    "power_w": 327.39,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.339916508,
+    "power_w": 327.58,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.440023624,
+    "power_w": 327.58,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.540104609,
+    "power_w": 327.58,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.640164549,
+    "power_w": 327.58,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.740249406,
+    "power_w": 327.58,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.840332013,
+    "power_w": 328.19,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19471.940437226,
+    "power_w": 328.19,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.04054791,
+    "power_w": 328.19,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.140645044,
+    "power_w": 328.19,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.240756057,
+    "power_w": 328.19,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.3408727,
+    "power_w": 328.43,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.441099791,
+    "power_w": 328.43,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.541084701,
+    "power_w": 328.43,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.641208193,
+    "power_w": 328.43,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.741311136,
+    "power_w": 328.43,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.841413316,
+    "power_w": 328.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19472.941467135,
+    "power_w": 328.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.041574077,
+    "power_w": 328.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.141715971,
+    "power_w": 328.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.241789414,
+    "power_w": 328.59,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.341874897,
+    "power_w": 328.29,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.441957871,
+    "power_w": 328.29,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.542094694,
+    "power_w": 328.29,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.642178458,
+    "power_w": 328.29,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.742264052,
+    "power_w": 328.29,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 62.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.842392245,
+    "power_w": 328.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19473.942456984,
+    "power_w": 328.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.04255282,
+    "power_w": 328.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.142642649,
+    "power_w": 328.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.242741776,
+    "power_w": 328.02,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.342812698,
+    "power_w": 328.51,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.442932375,
+    "power_w": 328.51,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.543008242,
+    "power_w": 328.51,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.643045248,
+    "power_w": 328.51,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.743180076,
+    "power_w": 328.51,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.843272848,
+    "power_w": 328.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19474.943380662,
+    "power_w": 328.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.043461799,
+    "power_w": 328.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.143599369,
+    "power_w": 328.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.243674538,
+    "power_w": 328.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.343762278,
+    "power_w": 328.91,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.443971025,
+    "power_w": 328.91,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.544047239,
+    "power_w": 328.91,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.644195569,
+    "power_w": 328.91,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.744313333,
+    "power_w": 328.91,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.844452419,
+    "power_w": 328.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19475.9445054,
+    "power_w": 328.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.044577737,
+    "power_w": 328.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.144658118,
+    "power_w": 328.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.244773673,
+    "power_w": 328.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.344881531,
+    "power_w": 328.98,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.445069658,
+    "power_w": 328.98,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.545177658,
+    "power_w": 328.98,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.64525449,
+    "power_w": 328.98,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.745370131,
+    "power_w": 328.98,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.845462505,
+    "power_w": 329.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19476.945628815,
+    "power_w": 329.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.045743868,
+    "power_w": 329.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.145849236,
+    "power_w": 329.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.245944515,
+    "power_w": 329.18,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.345985627,
+    "power_w": 329.46,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.446155014,
+    "power_w": 329.46,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.546251093,
+    "power_w": 329.46,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.646339145,
+    "power_w": 329.46,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.746428205,
+    "power_w": 329.46,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.846548661,
+    "power_w": 329.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19477.946657552,
+    "power_w": 329.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.046752352,
+    "power_w": 329.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.146830192,
+    "power_w": 329.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.246907742,
+    "power_w": 329.96,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.347074999,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.447184294,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.547275361,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.647355557,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.747418732,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.847497484,
+    "power_w": 329.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19478.947609241,
+    "power_w": 329.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.047683275,
+    "power_w": 329.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.147770337,
+    "power_w": 329.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.247890026,
+    "power_w": 329.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.347945612,
+    "power_w": 329.9,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.448107626,
+    "power_w": 329.9,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.548211547,
+    "power_w": 329.9,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.648361239,
+    "power_w": 329.9,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.748481866,
+    "power_w": 329.9,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.848534922,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19479.948617407,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.048742401,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.148857192,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.248989389,
+    "power_w": 329.92,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.349104043,
+    "power_w": 329.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.449248686,
+    "power_w": 329.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.549323812,
+    "power_w": 329.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.649401016,
+    "power_w": 329.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.749589409,
+    "power_w": 329.77,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.849788197,
+    "power_w": 329.94,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19480.949956672,
+    "power_w": 329.94,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.050241376,
+    "power_w": 329.94,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.150331412,
+    "power_w": 329.94,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.250400114,
+    "power_w": 329.94,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.3505141,
+    "power_w": 330.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.450615834,
+    "power_w": 330.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.550713181,
+    "power_w": 330.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.650841327,
+    "power_w": 330.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.750959521,
+    "power_w": 330.08,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.851025118,
+    "power_w": 330.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19481.951126214,
+    "power_w": 330.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.051265089,
+    "power_w": 330.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.151372977,
+    "power_w": 330.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.251445985,
+    "power_w": 330.57,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.351562888,
+    "power_w": 331.1,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.451689197,
+    "power_w": 331.1,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.551762116,
+    "power_w": 331.1,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.651859773,
+    "power_w": 331.1,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.751980448,
+    "power_w": 331.1,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.852141633,
+    "power_w": 330.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19482.952251195,
+    "power_w": 330.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.052299299,
+    "power_w": 330.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.152413864,
+    "power_w": 330.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.252549446,
+    "power_w": 330.99,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.352602359,
+    "power_w": 331.2,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.45271883,
+    "power_w": 331.2,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.552860223,
+    "power_w": 331.2,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.65291606,
+    "power_w": 331.2,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.752968719,
+    "power_w": 331.2,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.853077265,
+    "power_w": 331.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19483.953175057,
+    "power_w": 331.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.053300728,
+    "power_w": 331.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.153420003,
+    "power_w": 331.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.253523363,
+    "power_w": 331.17,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.353605647,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.453720311,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.553884625,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.653972512,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.754077192,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.854193766,
+    "power_w": 330.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19484.954297012,
+    "power_w": 330.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.054371407,
+    "power_w": 330.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.154448854,
+    "power_w": 330.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.254564584,
+    "power_w": 330.68,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.354673817,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.454749391,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.554839793,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.654913158,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.755013492,
+    "power_w": 330.63,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.85510343,
+    "power_w": 330.26,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19485.955186612,
+    "power_w": 330.26,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.05534149,
+    "power_w": 330.26,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.155421967,
+    "power_w": 330.26,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.255506884,
+    "power_w": 330.26,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.35561998,
+    "power_w": 331.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.45572976,
+    "power_w": 331.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.555836256,
+    "power_w": 331.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.655996465,
+    "power_w": 331.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.756157157,
+    "power_w": 331.03,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.856299569,
+    "power_w": 331.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19486.956440353,
+    "power_w": 331.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.056526976,
+    "power_w": 331.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.156650011,
+    "power_w": 331.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.256768438,
+    "power_w": 331.8,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.356865269,
+    "power_w": 331.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.457048287,
+    "power_w": 331.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.557146027,
+    "power_w": 331.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.657333803,
+    "power_w": 331.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.75756874,
+    "power_w": 331.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.857684908,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19487.957749508,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1241.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.057883153,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.157996071,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.25810003,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.358217684,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1242.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.458346745,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1246.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.558465453,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1250.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.658586663,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1254.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.758703688,
+    "power_w": 331.86,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.858833415,
+    "power_w": 330.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19488.958922002,
+    "power_w": 330.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.059061049,
+    "power_w": 330.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.15918775,
+    "power_w": 330.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.25929146,
+    "power_w": 330.45,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.35936736,
+    "power_w": 330.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.459502105,
+    "power_w": 330.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.559612654,
+    "power_w": 330.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.659691998,
+    "power_w": 330.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.759808309,
+    "power_w": 330.64,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.85992795,
+    "power_w": 332.54,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19489.960020132,
+    "power_w": 332.54,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  },
+  {
+    "time_s": 19490.060087936,
+    "power_w": 332.54,
+    "gpu_util_pct": 100.0,
+    "memory_mib": 1255.0,
+    "temperature_c": 63.0,
+    "sm_clock_mhz": 2730.0
+  }
+]

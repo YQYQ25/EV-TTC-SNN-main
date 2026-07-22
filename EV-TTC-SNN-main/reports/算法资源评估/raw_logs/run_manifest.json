@@ -1,0 +1,14 @@
+{
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.7.0+cu126",
+  "warmup": 100,
+  "iterations": 1000,
+  "power_seconds": 60.0,
+  "power_repeats": 3,
+  "models": [
+    "官方 ANN EV-Slim",
+    "Hybrid SNN EV-Slim",
+    "MAVLab LIF-EV-FlowNet-TTC"
+  ]
+}
